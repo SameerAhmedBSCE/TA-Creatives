@@ -1,0 +1,1874 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+    <title>Document</title>
+    <style>
+        /* navbar */
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container-main {
+            max-width: 100%;
+        }
+
+        .header {
+            display: flex;
+            width: 100%;
+
+            background-color: #000000;
+        }
+
+        .Nav {
+            display: flex;
+            width: 100%;
+
+            align-items: center;
+            /* padding: 28px 0px; */
+        }
+
+        .layer {
+            width: 71px;
+            height: 69px;
+            padding: 17px 0px 10px 21px;
+        }
+
+        .layer img {
+            width: 100%;
+            height: auto;
+        }
+
+        .Navigation-menu-list {
+            display: flex;
+            flex: 1;
+            justify-content: center;
+            /* padding: 0px 32px 0px 0px; */
+        }
+
+        .nav-links {
+
+            display: flex;
+            gap: 50px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-links li {
+            color: #ffffff;
+            font-size: 16px;
+            cursor: pointer;
+            /* padding: 15px 0; */
+        }
+
+        .btn button {
+            background-color: #00ADEF;
+            color: #ffffff;
+            padding: 10px 20px;
+            /* font-size: 16px; */
+            /* border: none; */
+            /* border-radius: 5px; */
+            /* cursor: pointer; */
+        }
+
+
+
+        /****************************** section-1 ***************************************/
+
+        .section-1 {
+            width: 100%;
+            /* height: 722.82px; */
+            display: flex;
+            /* gap: 0; */
+            margin: 0 auto;
+            /* background-color: #f0f0f0; */
+            /* border: 2px solid black; */
+        }
+
+        .section-left {
+            /* border: 2px solid black; */
+            width: 55%;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+            /* justify-content: center; */
+            /* text-align: center; */
+            /* padding: 20px; */
+        }
+
+
+        .left-heading {
+            /* margin-right: 45px; */
+            font-weight: 800;
+            font-family: Inter, sans-serif;
+            font-size: 60px;
+            color: white;
+            white-space: pre-line;
+            padding: 98px 0px 44px 124.5px;
+        }
+
+        .left-text {
+            color: white;
+            /* margin-bottom: 20px; */
+            font-family: Inter, sans-serif;
+            font-size: 25.3px;
+            font-weight: 400;
+            line-height: 39px;
+            /* text-align: left; */
+            padding: 0px 0px 0px 125.5px;
+            text-wrap: balance;
+        }
+
+
+        .estimate-button {
+            /* background-color: #007bff; */
+            /* margin-right: 350px; */
+            padding: 0px 0px 0px 124px;
+            /* font-size: 16px; */
+            /* color: #ffffff; */
+        }
+
+
+
+        .section-right {
+
+            width: 45%;
+
+        }
+
+        .section-right img {
+            width: 100%;
+            height: 826px;
+        }
+
+
+        /****************************** section-2 ***************************************/
+
+
+        /* Portfolio Section */
+
+        .section-2 {
+            background-color: #ffffff;
+
+        }
+
+
+        /* Header Styles */
+        .abc1 {
+            padding: 20px 0px 0px 127px;
+            /* Adjust padding as needed */
+        }
+
+        .abc2 {
+            /* Your styles here */
+            padding: 0px 0px 0px 127px;
+        }
+
+        /* Portfolio Items Wrapper */
+        .portfolio-items {
+
+            display: flex;
+            /* flex-direction: row; */
+            justify-content: space-evenly;
+        }
+
+
+        .col-lg-121 h1 {
+            color: #007bff;
+            padding-left: 90px;
+            text-wrap: balance;
+        }
+
+        .col-lg-121 h6 {
+            color: #007bff;
+            text-wrap: balance;
+            padding-right: 90px;
+        }
+
+        .card-set-1 {
+
+            width: 550px;
+
+        }
+
+        .item-wrap {
+            padding: 10px;
+            /* Add some padding around the content */
+        }
+
+        .image-wrapper {
+            width: 100%;
+
+            height: 300px;
+
+        }
+
+        .image-wrapper img {
+            width: 100%;
+            /* Make the image responsive */
+            height: 100%;
+
+        }
+
+        .info-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+            padding-top: 20px;
+            /* margin-top: 10px; */
+        }
+
+        .customer-info {
+            display: flex;
+            align-items: center;
+            /* Align image and text horizontally */
+        }
+
+        .customer-info img {
+            width: 24px;
+            /* Adjust width */
+            height: 24px;
+            /* Adjust height */
+            margin-right: 8px;
+            /* Space between image and text */
+        }
+
+        .customer-info p {
+            margin: 0;
+            /* Remove default margin */
+            padding: 0;
+            /* Remove any padding */
+            line-height: 1;
+            /* Ensures text is vertically centered */
+        }
+
+        .title {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 18px;
+            /* Adjust font size */
+            font-weight: bold;
+            /* Make the title bold */
+
+        }
+
+
+        /* .tech {}
+
+        .tech-item {
+           
+        } */
+
+        /* Wrapper for the button */
+        .See-all-product {
+            display: flex;
+            justify-content: center;
+            padding: 49px;
+        }
+
+        .See-all-product button {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 10px 20px;
+
+        }
+
+
+        /****************************** section-3 ***************************************/
+
+        .section-3 {
+            width: 100%;
+            /* border: #00ADEF 2px solid; */
+            /* padding-top: 59px; */
+        }
+
+        .portfolio-items1 {
+            /* border: #00ADEF 2px solid; */
+            padding: 105px;
+        }
+
+        /* .col-lg-121 {
+        
+        
+        } */
+
+        .one-more1 {
+            display: flex;
+            /* flex-wrap: wrap; */
+            gap: 34px;
+            /* padding: 0px 150px; */
+            justify-content: center;
+        }
+
+        .text-cards {
+            padding: 20px;
+            background-color: #f9f9f9;
+            /* flex: 1 1 calc(50% - 34px); */
+            /* Adjusts width to take 50% of the row minus the gap */
+            /* box-sizing: border-box; */
+            /* Ensures padding and borders are included in the width */
+        }
+
+        /* 
+        .content {
+           
+        } */
+
+        .title {
+            font-size: 32px;
+            font-weight: bold;
+
+        }
+
+        .description {
+
+            /* font-size: 16px; */
+            color: #666;
+            /* line-height: 1.6; */
+            /* margin-bottom: 20px; */
+        }
+
+
+        .link {
+            display: inline-block;
+            /* margin-top: 20px; */
+        }
+
+        .link-image {
+            width: 100px;
+            height: auto;
+        }
+
+        .form-contact-us {
+            color: white;
+            padding: 80px 0px 0px 640px;
+        }
+
+        /* Contact Form */
+        .contact-container {
+            max-width: 100%;
+            margin: 0 auto;
+            /* padding: 40px 20px; */
+            background-color: #111;
+            /* border-radius: 8px; */
+        }
+
+
+        /****************************** section-4 ***************************************/
+
+        .section-4 {
+            /* border: 2px solid red; */
+            padding: 50px 0px 0px 0px;
+            background-color: #000000;
+        }
+
+        .heading-of-section-4-slider {
+            padding-left: 222px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .slider {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .slick-slide {
+            margin: 0 5px;
+        }
+
+        .slick-list {
+            margin: 0px -5px 0px -5px;
+        }
+
+        button.slick-next,
+        button.slick-next:hover {
+            position: absolute;
+            top: 41%;
+            right: 54px;
+            width: 70px;
+            /* height: 75px; */
+            background-image: url("http://maggiesadler.com/wp-content/uploads/2015/10/left-right-arrow.png");
+            background-size: 95px;
+        }
+
+        button.slick-prev,
+        button.slick-prev:hover {
+            position: absolute;
+            top: 41%;
+            left: 15px;
+            z-index: 1;
+            width: 70px;
+            /* height: 75px; */
+            background-image: url("http://maggiesadler.com/wp-content/uploads/2015/10/left-right-arrow.png");
+            background-size: 95px;
+            background-position-x: right;
+        }
+
+        .slick-prev:before,
+        .slick-next:before {
+            font-size: 70px;
+            color: #EA8496;
+            line-height: inherit;
+            font-weight: bold;
+        }
+
+        .slider img {
+            height: 324px;
+        }
+
+        .slide-item {
+            text-align: center;
+        }
+
+        .slide-item p {
+            margin-top: 10px;
+            color: #333;
+        }
+         /****************************** section-5 ***************************************/
+          /* Section heading before the cards */
+    .section-heading {
+        background-color: #EFEFEF;
+        color: black;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    /* Container for the first pair of cards */
+    .card-container-1 {
+        display: flex;
+        justify-content: space-around;
+        box-sizing: border-box;
+    }
+
+    /* Individual cards in the first pair */
+    .card-1,
+    .card-2 {
+        background-color: #EFEFEF;
+        color: black;
+        width: 45%;
+        height: 300px;
+        margin-top: 40px;
+        box-sizing: border-box;
+    }
+
+    .card-1 {
+        background-image: url(./image\ 5.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+    /* Container for the second pair of cards */
+    .card-container-2 {
+        display: flex;
+        justify-content: space-around;
+        box-sizing: border-box;
+    }
+
+    /* Individual cards in the second pair */
+    .card-3,
+    .card-4 {
+        background-color: #EFEFEF;
+        color: black;
+        width: 45%;
+        height: 300px;
+        margin-top: 40px;
+        box-sizing: border-box;
+    }
+
+    /* Info section inside cards */
+    .info-wrapperr {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding-top: 20px;
+    }
+
+    /* Customer info section inside the cards */
+    .customer-info {
+        display: flex;
+        align-items: center;
+    }
+
+    .customer-info img {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+    }
+
+    /* Responsive design for screens up to 768px */
+    @media (max-width: 768px) {
+        .card-container-1,
+        .card-container-2 {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .card-1,
+        .card-2,
+        .card-3,
+        .card-4 {
+            width: 90%;
+            height: 250px;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .card-container-2 {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+    }
+
+      /****************************** section-6 ***************************************/
+      .section-6 {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: black;
+        }
+
+        .card-container-sec-6 {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px; /* Space between cards */
+            justify-content: center;
+            max-width: 1200px; /* Max width of the container */
+            width: 100%; /* Full width of the viewport */
+        }
+
+        .card-sec-6 {
+            display: flex;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #fff;
+            width: 500px; 
+            height: 250px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        }
+
+        .card-image {
+            width: 250px; 
+            height: 250px; 
+            object-fit: cover;
+        }
+
+        .card-content-sec-6 {
+            padding: 20px; 
+            flex: 1;
+        }
+
+        .card-content-sec-6 p {
+            margin: 0;
+        }
+ /****************************** section-8 ***************************************/
+ .section-dark {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+
+        .stack-container {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .main-heading {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        .tech-categories {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .tech-category {
+            margin: 20px;
+            text-align: center;
+            flex: 1;
+        }
+
+        .category-heading {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .row-of-tech {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        .tech-box {
+            margin: 5px;
+        }
+
+        .tech-box img {
+            width: 60px; /* Adjust size as needed */
+            height: auto;
+        }
+
+        .footer-text {
+            margin-top: 40px;
+            font-size: 24px;
+        }
+
+        /****************************** section-9 ***************************************/
+        .section-9 {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .why-choose-us {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .why-choose-us h2 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 40px;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            /* flex-wrap: wrap; */
+        }
+
+        .feature {
+            background-color: #fafafa;
+            border: 1px solid #e4e4e4;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            width: calc(25% - 20px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .feature-icon {
+            max-width: 50px;
+            margin-bottom: 20px;
+        }
+
+        .feature h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        /****************************** section-10 ***************************************/
+
+        .section-10 {
+            /* border: 2px solid red; */
+            padding: 150px;
+        }
+
+        .heading-sec-10 {
+            padding: 0px 0px 100px 50px;
+        }
+
+        .card {
+            /* border: 2px solid red; */
+
+        }
+
+        .card-wrapper {}
+
+        /****************************** section-13 ***************************************/
+        .section-13 {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 100px 0px 100px 0px;
+            display: flex;
+            justify-content: center;
+            /* align-items: center;
+    height: 100vh; */
+        }
+
+        .faq-container {
+            background-color: #fff;
+            width: 100%;
+            max-width: 800px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .faq-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .faq-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-item p {
+            margin: 0;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .faq-icon {
+            width: 24px;
+            height: 24px;
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /****************************** section-14 ***************************************/
+
+        .section-14-2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding: 100px 0px 100px 0px;
+        }
+
+        .heading-sec-14 {
+            padding-left: 124.5px;
+            padding-top: 20px;
+        }
+
+        .link-image-sec-14 {
+            padding-top: 20px;
+        }
+
+        .col-lg-1211 h1 {
+            color: #007bff;
+            padding-left: 90px;
+            text-wrap: balance;
+        }
+
+        .col-lg-1211 h6 {
+            color: #007bff;
+            text-wrap: balance;
+            padding-right: 90px;
+        }
+
+        .card-set-11 {
+
+            width: 550px;
+
+        }
+
+        .item-wrap {
+            padding: 10px;
+            /* Add some padding around the content */
+        }
+
+        .image-wrapper {
+            width: 100%;
+
+            height: 300px;
+
+        }
+
+        .image-wrapper img {
+            width: 100%;
+            /* Make the image responsive */
+            height: 100%;
+
+        }
+
+        .info-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+            padding-top: 20px;
+            /* margin-top: 10px; */
+        }
+
+        .customer-info {
+            display: flex;
+            align-items: center;
+            /* Align image and text horizontally */
+        }
+
+        .customer-info img {
+            width: 24px;
+            /* Adjust width */
+            height: 24px;
+            /* Adjust height */
+            margin-right: 8px;
+            /* Space between image and text */
+        }
+
+        .customer-info p {
+            margin: 0;
+            /* Remove default margin */
+            padding: 0;
+            /* Remove any padding */
+            line-height: 1;
+            /* Ensures text is vertically centered */
+        }
+
+        .title {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 18px;
+            /* Adjust font size */
+            font-weight: bold;
+            /* Make the title bold */
+
+        }
+
+
+        /* .tech {}
+
+.tech-item {
+
+} */
+
+
+
+        /****************************** second-last-section ***************************************/
+
+
+
+
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            padding: 57px 110px 120px 110px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .phone-input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #333;
+            background-color: #222;
+            color: #fff;
+        }
+
+        .phone-input {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .file-attachment {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .file-attachment small {
+            font-size: 12px;
+            color: #ccc;
+        }
+
+        button[type="submit"] {
+            padding: 10px;
+            background-color: #00aaff;
+            border: none;
+            color: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #008ecc;
+        }
+
+        .form-label {
+            color: white;
+        }
+
+        label {
+            color: white;
+        }
+
+
+        /****************************** footer ***************************************/
+
+        footer {
+            background-color: #f8f8f8;
+            color: #333;
+            padding: 40px 20px;
+
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer-logo img {
+            max-width: 50px;
+            margin-bottom: 20px;
+            margin-right: 40px;
+        }
+
+        .footer-sections {
+            display: flex;
+            gap: 174px;
+        }
+
+        .footer-column {
+            margin-bottom: 20px;
+        }
+
+        .footer-column h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .footer-column ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .footer-social ul {
+            list-style: none;
+            display: flex;
+            gap: 10px;
+            padding: 0;
+        }
+
+        .footer-social ul li {
+            background-color: #333;
+            color: #fff;
+            padding: 8px;
+            border-radius: 50%;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .footer-bottom p {
+            font-size: 14px;
+            color: #aaa;
+        }
+
+        /********************* Media Queries **********************************/
+
+
+
+
+
+        /* For screens 1440px wide and smaller */
+        @media (max-width: 1440px) {
+            /* Your CSS rules here */
+        }
+
+        /* For screens 1025px wide and smaller */
+        @media (max-width: 1025px) {
+            /* Your CSS rules here */
+        }
+
+        /* For screens 768px wide and smaller */
+        @media (max-width: 768px) {
+            .one-more1 {
+                display: flex;
+                flex-wrap: wrap;
+
+            }
+
+
+
+            .text-cards {
+                flex: 1 1 calc(50% - 20px);
+                /* Two items per row */
+            }
+
+            .portfolio-items {
+
+                display: flex;
+                flex-wrap: wrap;
+                /* flex-direction: row; */
+                justify-content: space-evenly;
+            }
+
+            .section-14-2 {
+
+                display: flex;
+                flex-wrap: wrap;
+                /* flex-direction: row; */
+                justify-content: space-evenly;
+            }
+
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .feature {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- /****************************** navbar ***************************************/ -->
+    <div class="container-main">
+        <div class="header">
+            <div class="Nav">
+                <div class="layer">
+                    <img src="./a6c816998d44c5b7a35555c6fea2989c.png" alt="Nav Icon">
+                </div>
+                <div class="Navigation-menu-list">
+                    <ul class="nav-links">
+                        <li>COMPANY <i class="fa fa-chevron-down" aria-hidden="true"></i></li>
+                        <li>PORTFOLIO<i class="fa fa-chevron-down" aria-hidden="true"></i></li>
+                        <li>SERVICES<i class="fa fa-chevron-down" aria-hidden="true"></i></li>
+                        <li>TECHNOLOGY<i class="fa fa-chevron-down" aria-hidden="true"></i></li>
+                        <li>BLOG<i class="fa fa-chevron-down" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+                <div class="btn">
+                    <button>CONTACT US</button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- /****************************** section-1 ***************************************/ -->
+        <div class="section-1">
+            <div class="section-left">
+                <h2 class="left-heading">Ui\Ux Designing Development Services</h2>
+                <p class="left-text">Full-cycle web development, iOS/Android development, complex UX/UI design
+                    services and dedicated teams to help your business scale</p>
+                <div class="estimate-button">
+                    <button>Estimate Your Project</button>
+                </div>
+
+            </div>
+
+            <div class="section-right">
+                <img src="./right sec.png" alt="Right Section Image">
+            </div>
+
+        </div>
+
+
+
+
+        <!-- /****************************** section-2 ***************************************/ -->
+
+
+        <section class="section-2">
+            <div class="col-lg-12">
+                <h1 class="abc1">Our Diverse Portfolio</h1>
+                <h6 class="abc2">over 6 years, we’ve been successfully delivering development projects for our client.
+                </h6>
+            </div>
+            <div class="portfolio-items">
+                <div class="card-set-1">
+                    <div class="item-wrap">
+                        <div class="image-wrapper">
+                            <img src="./9d5fad973a186765b365da20ddc92dfc.jpg" alt="Descriptive alt text">
+                        </div>
+                        <div class="info-wrapper ">
+                            <div class="customer-info">
+                                <img src="./Clip path group.png" alt="">
+                                <p>hello</p>
+                            </div>
+                            <div class="title">90 YEARS EXPERIENCE MAKING WINES</div>
+                        </div>
+                        <div class="tech">
+                            <img src="./react.png" alt="">
+                            <img src="./react.png" alt="">
+                            <img src="./react.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-set-1">
+                    <div class="item-wrap">
+                        <div class="image-wrapper">
+                            <img src="./sda.png" alt="Descriptive alt text">
+                        </div>
+                        <div class="info-wrapper d-flex">
+                            <div class="customer-info">
+                                <img src="./Clip path group.png" alt="">
+                                <p>hello</p>
+                            </div>
+                            <div class="title">90 YEARS EXPERIENCE MAKING WINES</div>
+                        </div>
+                        <div class="tech">
+                            <img src="./Div [technology-item].png" alt="">
+                            <img src="./react.png" alt="">
+                            <img src="./react.png" alt="">
+                            <img src="./react.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-items">
+                <div class="card-set-1">
+                    <div class="item-wrap">
+                        <div class="image-wrapper">
+                            <img src="./9d5fad973a186765b365da20ddc92dfc.jpg" alt="Descriptive alt text">
+                        </div>
+                        <div class="info-wrapper d-flex">
+                            <div class="customer-info">
+                                <img src="./Clip path group.png" alt="">
+                                <p>hello</p>
+                            </div>
+                            <div class="title">90 YEARS EXPERIENCE MAKING WINES</div>
+                        </div>
+                        <div class="tech">
+                            <div class="tech-item">
+                                <img src="./Div [technology-item].png" alt="">
+                                <img src="./Div [technology-item].png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-set-1">
+                    <div class="item-wrap">
+                        <div class="image-wrapper">
+                            <img src="./9d5fad973a186765b365da20ddc92dfc.jpg" alt="Descriptive alt text">
+                        </div>
+                        <div class="info-wrapper d-flex">
+                            <div class="customer-info">
+                                <img src="./Clip path group.png" alt="">
+                                <p>hello</p>
+                            </div>
+                            <div class="title">90 YEARS EXPERIENCE MAKING WINES</div>
+                        </div>
+                        <div class="tech">
+                            <img src="./Div [technology-item].png" alt="">
+                            <img src="./Div [technology-item].png" alt="">
+                            <img src="./Div [technology-item].png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="See-all-product">
+                <button>See-all-product</button>
+            </div>
+        </section>
+
+        <!-- /****************************** section-3 ***************************************/ -->
+
+
+        <section class="section-3">
+            <div class="portfolio-items1">
+                <div class="col-lg-121">
+                    <h1>We know how to deliver</h1>
+                    <h6>For over 6 years, we’ve been successfully delivering development projects for our client.
+                    </h6>
+                </div>
+                <div class="one-more1">
+                    <div class="text-cards">
+                        <div class="content">
+                            <h1 class="title">Mobile app development</h1>
+                            <p class="description">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur suscipit explicabo
+                                incidunt doloribus ea dolorum commodi nobis reiciendis eos. Consequatur, hic. Id sit
+                                repellendus quam deleniti ad iusto accusamus sequi.
+                                Asperiores tempore, nostrum animi aspernatur praesentium eligendi repellat temporibus
+                                repudiandae error voluptatum corporis officiis sed voluptatem quam libero fuga quisquam
+                                sint, facere voluptates deserunt cum. Eaque doloremque fugiat ipsa nulla.
+                            </p>
+                            <a href="./Link [deliver__card-link].png" class="link">
+                                <img src="./Link [deliver__card-link].png" alt="Deliver Card Link" class="link-image">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="text-cards">
+                        <div class="content">
+                            <h1 class="title">Mobile app development</h1>
+                            <p class="description">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur suscipit explicabo
+                                incidunt doloribus ea dolorum commodi nobis reiciendis eos. Consequatur, hic. Id sit
+                                repellendus quam deleniti ad iusto accusamus sequi.
+                                Asperiores tempore, nostrum animi aspernatur praesentium eligendi repellat temporibus
+                                repudiandae error voluptatum corporis officiis sed voluptatem quam libero fuga quisquam
+                                sint, facere voluptates deserunt cum. Eaque doloremque fugiat ipsa nulla.
+                            </p>
+                            <a href="./Link [deliver__card-link].png" class="link">
+                                <img src="./Link [deliver__card-link].png" alt="Deliver Card Link" class="link-image">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="text-cards">
+                        <div class="content">
+                            <h1 class="title">Mobile app development</h1>
+                            <p class="description">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur suscipit explicabo
+                                incidunt doloribus ea dolorum commodi nobis reiciendis eos. Consequatur, hic. Id sit
+                                repellendus quam deleniti ad iusto accusamus sequi.
+                                Asperiores tempore, nostrum animi aspernatur praesentium eligendi repellat temporibus
+                                repudiandae error voluptatum corporis officiis sed voluptatem quam libero fuga quisquam
+                                sint, facere voluptates deserunt cum. Eaque doloremque fugiat ipsa nulla.
+                            </p>
+                            <a href="./Link [deliver__card-link].png" class="link">
+                                <img src="./Link [deliver__card-link].png" alt="Deliver Card Link" class="link-image">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="text-cards">
+                        <div class="content">
+                            <h1 class="title">Mobile app development</h1>
+                            <p class="description">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur suscipit explicabo
+                                incidunt doloribus ea dolorum commodi nobis reiciendis eos. Consequatur, hic. Id sit
+                                repellendus quam deleniti ad iusto accusamus sequi.
+                                Asperiores tempore, nostrum animi aspernatur praesentium eligendi repellat temporibus
+                                repudiandae error voluptatum corporis officiis sed voluptatem quam libero fuga quisquam
+                                sint, facere voluptates deserunt cum. Eaque doloremque fugiat ipsa nulla.
+                            </p>
+                            <a href="./Link [deliver__card-link].png" class="link">
+                                <img src="./Link [deliver__card-link].png" alt="Deliver Card Link" class="link-image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="See-all-product">
+                <button>See all products</button>
+            </div>
+        </section>
+
+
+        <!-- /****************************** section-4 ***************************************/ -->
+
+        <div class="section-4 ">
+            <h1 class="heading-of-section-4-slider">Video reviews of our customers</h1>
+            <div class="slider">
+                <div class="slide-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1485893086445-ed75865251e0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVvcGxlfGVufDB8MnwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" />
+                    <p style="color: white;">Image 3 Description</p>
+                </div>
+                <div class="slide-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVvcGxlfGVufDB8MnwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" />
+                    <p style="color: white;">Image 3 Description</p>
+                </div>
+                <div class="slide-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVvcGxlfGVufDB8MnwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" />
+                    <p style="color: white;">Image 3 Description</p>
+                </div>
+                <div class="slide-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVvcGxlfGVufDB8MnwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" />
+                    <p style="color: white;">Image 3 Description</p>
+                </div>
+                <div class="slide-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVvcGxlfGVufDB8MnwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" />
+                    <p style="color: white;">Image 3 Description</p>
+                </div>
+
+            </div>
+            <div class="See-all-product">
+                <button>See all products</button>
+            </div>
+        </div>
+
+         <!-- /****************************** section-5 ***************************************/ -->
+
+         <div class="section-5">
+            <div class="section-heading">
+                <h1>Web and Mobile App Development Services We Provide</h1>
+            </div>
+            <!-- First pair of cards -->
+            <div class="card-container-1">
+                <div class="card-1"></div>
+                <div class="card-2">
+                    <div class="info-wrapper">
+                        <div class="customer-info">
+                            <img src="./Clip path group.png" alt="Customer">
+                            <p>Hello</p>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia delectus voluptatum velit
+                        accusantium, vero nulla, voluptatem iure quo nobis nemo explicabo corporis impedit sit nam atque
+                        doloribus dolor inventore. Incidunt.</p>
+                </div>
+            </div>
+    
+            <!-- Second pair of cards -->
+            <div class="card-container-2">
+                <div class="card-3">
+                    <h5>FOR STARTUPS</h5>
+                    <h5>FOR STARTUPS</h5>
+                    <h5>FOR STARTUPS</h5>
+                </div>
+                <div class="card-4">
+                    <div class="info-wrapperr">
+                        <div class="customer-info">
+                            <img src="./Clip path group.png" alt="Customer">
+                            <p>Hello</p>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, unde mollitia facilis eveniet, quas
+                        tempora dignissimos reiciendis veritatis ab dolores omnis quaerat magni animi ut et veniam,
+                        cupiditate iure. Vel!</p>
+                </div>
+            </div>
+        </div>
+
+ <!-- /****************************** section-6 ***************************************/ -->
+
+
+        <div class="section-6">
+           
+            <div class="card-container-sec-6">
+               
+                <div class="card-sec-6">
+                    <img src="./sec-6-image.png" alt="Image" class="card-image">
+                    <div class="card-content-sec-6">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel turpis non nisi auctor efficitur.</p>
+                    </div>
+                </div>
+                <div class="card-sec-6">
+                    <img src="./sec-6-image.png" alt="Image" class="card-image">
+                    <div class="card-content-sec-6">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel turpis non nisi auctor efficitur.</p>
+                    </div>
+                </div>
+                <div class="card-sec-6">
+                    <img src="./sec-6-image.png" alt="Image" class="card-image">
+                    <div class="card-content-sec-6">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel turpis non nisi auctor efficitur.</p>
+                    </div>
+                </div>
+                <div class="card-sec-6">
+                    <img src="./sec-6-image.png" alt="Image" class="card-image">
+                    <div class="card-content-sec-6">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel turpis non nisi auctor efficitur.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+ <!-- /****************************** section-8 ***************************************/ -->
+ <div class="section-dark">
+    <div class="stack-container">
+        <h1 class="main-heading">Our Technology Stack</h1>
+        <div class="tech-categories">
+            <div class="tech-category">
+                <h2 class="category-heading">WEB</h2>
+                <div class="row-of-tech">
+                    <div class="tech-box">
+                        <img src="./Group 2.png" alt="Technology">
+                    </div>
+                    <div class="tech-box">
+                        <img src="./Group 2.png" alt="Technology">
+                    </div>
+                    <div class="tech-box">
+                        <img src="./Group 2.png" alt="Technology">
+                    </div>
+                </div>
+                <div class="row-of-tech">
+                    <div class="tech-box">
+                        <img src="./Group 2.png" alt="Technology">
+                    </div>
+                    <div class="tech-box">
+                        <img src="./Group 2.png" alt="Technology">
+                    </div>
+                </div>
+            </div>
+
+            <div class="tech-category">
+                <h2 class="category-heading">MOBILE</h2>
+                <div class="row-of-tech">
+                    <div class="tech-box">
+                        <img src="./Group 2.png" alt="Technology">
+                    </div>
+                    <div class="tech-box">
+                        <img src="./Group 2.png" alt="Technology">
+                    </div>
+                    <div class="tech-box">
+                        <img src="./Group 2.png" alt="Technology">
+                    </div>
+                </div>
+                <div class="row-of-tech">
+                    <div class="tech-box">
+                        <img src="./Group 2.png" alt="Technology">
+                    </div>
+                    <div class="tech-box">
+                        <img src="./Group 2.png" alt="Technology">
+                    </div>
+                </div>
+            </div>
+
+            <div class="tech-category">
+                <h2 class="category-heading">BACKEND</h2>
+                <div class="row-of-tech">
+                    <div class="tech-box">
+                        <img src="./Group 2.png" alt="Technology">
+                    </div>
+                    <div class="tech-box">
+                        <img src="./Group 2.png" alt="Technology">
+                    </div>
+                    <div class="tech-box">
+                        <img src="./Group 2.png" alt="Technology">
+                    </div>
+                </div>
+                <div class="row-of-tech">
+                    <div class="tech-box">
+                        <img src="./Group 2.png" alt="Technology">
+                    </div>
+                    <div class="tech-box">
+                        <img src="./Group 2.png" alt="Technology">
+                    </div>
+                </div>
+            </div>
+
+            <div class="tech-category">
+                <h2 class="category-heading">DATABASE</h2>
+                <div class="row-of-tech">
+                    <div class="tech-box">
+                        <img src="./Group 2.png" alt="Technology">
+                    </div>
+                    <div class="tech-box">
+                        <img src="./Group 2.png" alt="Technology">
+                    </div>
+                    <div class="tech-box">
+                        <img src="./Group 2.png" alt="Technology">
+                    </div>
+                </div>
+                <div class="row-of-tech">
+                    <div class="tech-box">
+                        <img src="./Group 2.png" alt="Technology">
+                    </div>
+                    <div class="tech-box">
+                        <img src="./Group 2.png" alt="Technology">
+                    </div>
+                    <div class="tech-box">
+                        <img src="./Group 2.png" alt="Technology">
+                    </div>
+                    <div class="tech-box">
+                        <img src="./Group 2.png" alt="Technology">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="footer-text">AND MANY OTHER TECHNOLOGIES</p>
+    </div>
+</div>
+        <!-- /****************************** section-9 ***************************************/ -->
+        <div class="section-9">
+            <section class="why-choose-us">
+                <h2>Why choose us?</h2>
+                <div class="features">
+                    <div class="feature">
+                        <img src="./Vector.png" alt="Reliability Icon" class="feature-icon">
+                        <h3>RELIABILITY</h3>
+                        <p>We understand the importance of delivering reliable solutions our clients can count on. Thus,
+                            EDE is committed to upholding the highest standards of quality and consistency in every
+                            project we undertake.</p>
+                    </div>
+                    <div class="feature">
+                        <img src="./Vector.png" alt="Customization Icon" class="feature-icon">
+                        <h3>CUSTOMIZATION</h3>
+                        <p>We work closely with each client to understand their unique goals, challenges, and vision. It
+                            allows us to tailor bespoke solutions that reflect their brand identity and resonate with
+                            their target audience.</p>
+                    </div>
+                    <div class="feature">
+                        <img src="./Vector.png" alt="On-Time Delivery Icon" class="feature-icon">
+                        <h3>ON-TIME DELIVERY</h3>
+                        <p>We always adhere to strict project timelines and milestones. By leveraging Agile
+                            methodologies and effective project management practices, we ensure our clients receive
+                            expected results on schedule, without compromising quality or functionality.</p>
+                    </div>
+                    <div class="feature">
+                        <img src="./Vector.png" alt="Transparency Icon" class="feature-icon">
+                        <h3>TRANSPARENCY</h3>
+                        <p>Transparency is key to building strong and lasting relationships with our clients. Thus, we
+                            prioritize open communication, honesty, and integrity in all our interactions. From planning
+                            and updates to budgeting, we maintain transparent processes to keep you informed throughout
+                            the project lifecycle.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- /****************************** section-10 ***************************************/ -->
+
+        <div class="section-10">
+            <div class="heading-sec-10">
+                <h1>Industries We Serve</h1>
+            </div>
+            <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card-wrapper container-sm d-flex  justify-content-around">
+                            <div class="card  " style="width: 18rem;">
+                                <img src="./Image scalten.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h1>Healthcare</h1>
+                                    <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et
+                                        expedita quia accusamus reprehenderit voluptatum incidunt inventore iste quo
+                                        alias officia tenetur praesentium tempora quibusdam veniam itaque numquam ut,
+                                        consequatur repudiandae?</h5>
+
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="./Image scalten.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h1>Healthcare</h1>
+                                    <h5 class="card-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Minus tempora in ut expedita reiciendis consectetur eos laboriosam dolores sunt
+                                        voluptas praesentium, exercitationem voluptate, eius natus, error officia fugit?
+                                        Et, incidunt?</h5>
+
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="./Image scalten.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h1>Healthcare</h1>
+                                    <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Molestiae fugit consequuntur voluptatem laudantium sequi magni non quisquam
+                                        inventore corrupti voluptas in eaque quas corporis nam minima, eligendi ipsa.
+                                        Repellat, iste!</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card-wrapper container-sm d-flex   justify-content-around">
+                            <div class="card  " style="width: 18rem;">
+                                <img src="./Image scalten.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h1>Healthcare</h1>
+                                    <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Obcaecati fugiat modi hic incidunt animi magni vel consequuntur ipsum asperiores
+                                        quae voluptate, minus quaerat, error blanditiis repudiandae iure ipsam minima
+                                        tempora!Card title</h5>
+
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="./Image scalten.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h1>Healthcare</h1>
+                                    <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Fugit minus consectetur, accusamus non modi aut iusto magni assumenda expedita
+                                        veritatis officiis soluta facilis provident sequi similique, animi neque
+                                        dolorem! Est.</h5>
+
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="./Image scalten.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h1>Healthcare</h1>
+                                    <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Labore aut molestiae beatae repudiandae incidunt sint similique praesentium
+                                        minima. Unde illum odit asperiores quis ducimus excepturi quibusdam voluptate
+                                        rem, doloremque hic?</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card-wrapper container-sm d-flex  justify-content-around">
+                            <div class="card " style="width: 18rem;">
+                                <img src="./Image scalten.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h1>Healthcare</h1>
+                                    <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Suscipit voluptates tempore dicta praesentium in optio architecto eaque
+                                        necessitatibus, numquam autem ex aperiam blanditiis modi molestiae quod soluta
+                                        consequatur maxime quidem?</h5>
+
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="./Image scalten.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h1>Healthcare</h1>
+                                    <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Corrupti earum harum veniam iste asperiores voluptate eveniet maxime rem illo
+                                        fuga sunt pariatur, nesciunt explicabo laudantium expedita animi nam ex
+                                        dignissimos!</h5>
+
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="./Image scalten.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h1>Healthcare</h1>
+                                    <h5 class="card-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Eligendi voluptate nemo ducimus similique quis eum in? Suscipit dicta tempore
+                                        debitis nostrum maxime ducimus provident vitae, illum modi architecto nobis
+                                        exercitationem!</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- /****************************** section-13 ***************************************/ -->
+
+        <div class="section-13">
+            <div class="faq-container">
+                <h2>FAQ</h2>
+                <div class="faq-item">
+                    <p>How can you choose a web and mobile application development company?</p>
+                    <div class="faq-icon">r</div>
+                </div>
+                <div class="faq-item">
+                    <p>How much does it cost to develop a web and mobile app?</p>
+                    <div class="faq-icon">r</div>
+                </div>
+                <div class="faq-item">
+                    <p>How long does it take to develop a custom web and mobile application?</p>
+                    <div class="faq-icon">r</div>
+                </div>
+                <div class="faq-item">
+                    <p>What is the communication process during the development phase?</p>
+                    <div class="faq-icon">r</div>
+                </div>
+            </div>
+        </div>
+        <!-- /****************************** section-14 ***************************************/ -->
+        <div class="section-14">
+            <div class="heading-sec-14">
+                <h1>Our blog</h1>
+            </div>
+            <div class="section-14-2">
+
+                <div class="card-set-11">
+                    <div class="item-wrap">
+                        <div class="image-wrapper">
+                            <img src="./image 5.png" alt="Descriptive alt text">
+                        </div>
+
+
+                        <div class="title"> Increase App Engagement: Top 10 strategies </div>
+
+                        <div class="tech">
+                            <p>The level of user engagement is a vital indicator of a mobile
+                                application’s success. This metric is particularly crucial when
+                                the app’s monetization directly relies on in-app time. What’s
+                                more,…</p>
+
+                            <span>Aug 2, 2024 Aug 2, 2024 Aug 2, 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-set-11">
+                    <div class="item-wrap">
+                        <div class="image-wrapper">
+                            <img src="./image-6.png" alt="Descriptive alt text">
+                        </div>
+
+                        <img src="./Link [tags__item-link].png" alt="" class="link-image-sec-14">
+                        <div class="title"> Increase App Engagement: Top 10 strategies </div>
+
+                        <div class="tech">
+                            <p>The level of user engagement is a vital indicator of a mobile
+                                application’s success. This metric is particularly crucial when
+                                the app’s monetization directly relies on in-app time. What’s
+                                more,…</p>
+
+                            <span>Aug 2, 2024 Aug 2, 2024 Aug 2, 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- /****************************** second-last-section ***************************************/ -->
+
+
+        <div class="contact-container">
+            <h1 class="form-contact-us">Contact us!</h1>
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name*</label>
+                    <input type="text" id="name" name="name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" placeholder="Email">
+
+                    <div class="phone-input">
+                        <select name="country-code" id="country-code">
+                            <option value="+1">🇺🇸 +1</option>
+                            <!-- Add more country codes as needed -->
+                        </select>
+                        <input type="tel" id="phone" name="phone" placeholder="0000000000">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="project">Briefly describe your project</label>
+                    <textarea id="project" name="project" placeholder="Briefly describe your project"></textarea>
+                </div>
+                <div class="form-group file-attachment">
+                    <label for="file">Attach the file</label>
+                    <input type="file" id="file" name="file">
+                    <small>pdf, txt, doc, docx, jpeg, jpg, png</small>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+
+
+        <!-- /****************************** footer ***************************************/ -->
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <img src="./imagelogofooter.png" alt="TA Creatives Logo">
+                </div>
+                <div class="footer-sections">
+                    <div class="footer-column">
+                        <h3>Services</h3>
+                        <ul>
+                            <li>UX/UI Design</li>
+                            <li>Web Development</li>
+                            <li>Front-end Development</li>
+                            <li>Mobile App Development</li>
+                            <li>Enterprise Application Development</li>
+                            <li>Offshore Software Development</li>
+                            <li>Java Outsourcing</li>
+                            <li>Team as a Service</li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Company</h3>
+                        <ul>
+                            <li>About Us</li>
+                            <li>Portfolio</li>
+                            <li>Expertise</li>
+                            <li>Blog</li>
+                            <li>FAQ</li>
+                            <li>Careers</li>
+                            <li>Countries</li>
+                            <li>Privacy Policy</li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contacts</h3>
+                        <ul>
+                            <li>🇺🇸 0000000000000000</li>
+                            <li>🇬🇧 0000000000000000</li>
+                        </ul>
+                        <p>For media and posting inquiries:</p>
+                        <p>tacreatives@gmail.com</p>
+                        <button class="contact-btn">Contact Us</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                <p>©2024 TA Creatives</p>
+            </div>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
